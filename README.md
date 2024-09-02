@@ -22,5 +22,5 @@ Run:
 Emit LLVM IR:
     with and without skeleton pass
 
-    $ clang -emit-llvm -S -o - ../example.c```
+    $ clang -emit-llvm -S -o - ../example.c
     $ clang -emit-llvm -S -o -  -fpass-plugin=`echo build/skeleton/SkeletonPass.*`   ../example.c
